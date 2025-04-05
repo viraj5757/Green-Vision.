@@ -1,0 +1,4 @@
+document.getElementById("garbageForm").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    document.getElementById("responseMessage").innerText = "Report Submitted Successfully!";
+});
